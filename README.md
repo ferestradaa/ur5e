@@ -7,3 +7,10 @@ For motion test with no real hardware use:
 ros2 launch ur_robot_driver ur_control.launch.py ur_type:=ur5e robot_ip:=192.168.56.101 use_fake_hardware:=true 
 ```
 Any IP adress can be used, only to follow string convention syntax
+
+## Isaac Sim 
+After a success instalation considering CUDA and NVIDIA drivers, verify instalation and run 
+
+```bash
+/home/aist/.local/share/ov/pkg/isaac-sim-4.2.0/isaac-sim.sh
+```

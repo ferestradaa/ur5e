@@ -1,3 +1,4 @@
+#this code manually sends a random trajectory to ur5e robot to confirm communication
 import rclpy
 from rclpy.node import Node
 from trajectory_msgs.msg import JointTrajectory,JointTrajectoryPoint 

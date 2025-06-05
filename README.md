@@ -14,5 +14,5 @@ After a success instalation considering CUDA and NVIDIA drivers, verify instalat
 ```bash
 local/share/ov/pkg/isaac-sim-4.2.0/isaac-sim.sh
 ```
-[Here](google.com) you can find an Isaac Sim extension for IK solving using RMPFlow solver. It automatically publishes new angular joint position for UR5e robot. Ready for ROS2 implementations
+This is an Isaac Sim [extension](https://github.com/ferestradaa/ur5e/tree/main/ik_extension1) for IK solving using RMPFlow solver. It automatically publishes new angular joint position for UR5e robot. Ready for ROS2 implementations
 

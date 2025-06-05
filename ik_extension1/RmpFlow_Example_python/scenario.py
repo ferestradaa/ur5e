@@ -40,8 +40,7 @@ class FrankaRmpFlowExample():
         # The position in which things are loaded is also the position in which they 
 
         robot_prim_path = "/ur5e"
-        path_to_robot_usd = "/home/aist/Desktop/FES/ik_extension1/RmpFlow_Example_python/test1_clean.usd"
-        #path_to_robot_usd = "/home/aist/Desktop/Extension/MRTwin Extension/RmpFlow_Example_python/UR5e.usd"
+        path_to_robot_usd = "test1_clean.usd"
         add_reference_to_stage(path_to_robot_usd, robot_prim_path)
         self._articulation = Articulation(robot_prim_path)
         

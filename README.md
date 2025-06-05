@@ -12,5 +12,5 @@ Any IP adress can be used, only to follow string convention syntax
 After a success instalation considering CUDA and NVIDIA drivers, verify instalation and run 
 
 ```bash
-/home/aist/.local/share/ov/pkg/isaac-sim-4.2.0/isaac-sim.sh
+local/share/ov/pkg/isaac-sim-4.2.0/isaac-sim.sh
 ```

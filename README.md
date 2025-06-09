@@ -16,3 +16,11 @@ local/share/ov/pkg/isaac-sim-4.2.0/isaac-sim.sh
 ```
 This is an Isaac Sim [extension](https://github.com/ferestradaa/ur5e/tree/main/ik_extension1) for IK solving using RMPFlow solver. It automatically publishes new angular joint position for UR5e robot. Ready for ROS2 implementations
 
+## Resources
+
+https://docs.omniverse.nvidia.com/isaacsim/latest/advanced_tutorials/tutorial_motion_generation_rmpflow.html
+
+https://docs.omniverse.nvidia.com/isaacsim/latest/concepts/motion_generation/rmpflow.html#isaac-sim-motion-generation-rmpflow
+
+
+

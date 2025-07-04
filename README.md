@@ -30,8 +30,9 @@ https://gery.casiez.net/1euro/InteractiveDemo/
 
 1. Para nodos de deteccion y conversion a 3D, el timestamp debe ser medido aun cuando se trabaja con frames (tiempo discreto) de forma que realemnte pueda medirse el tiempo de ejecucion entre cada deteccion.
 Por ello, el tiempo es parte del mensje que se publcia y recibe.
-Despues, al momento de aplicar filtros, con esto se asegura que cada componente esta siendo evaluada sobre el mismo instante de tiempo, evitando inconsistencias al momento
-de visualizar
+Despues, al momento de aplicar filtros, con esto se asegura que cada componente esta siendo evaluada sobre el mismo instante de tiempo, evitando inconsistencias cuando
+se visualizan los resultados
+
 
 
 

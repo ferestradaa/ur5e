@@ -34,5 +34,8 @@ Despues, al momento de aplicar filtros, con esto se asegura que cada componente 
 se visualizan los resultados
 
 
+## RMPFLow setup for new robots
+1. Use Lula Robot Description Editor to generate a YAML file used for lula based algorithms suchas as RMPFLOW. 
+
 
 

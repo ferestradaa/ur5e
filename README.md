@@ -35,7 +35,12 @@ se visualizan los resultados
 
 
 ## RMPFLow setup for new robots
-1. Use Lula Robot Description Editor to generate a YAML file used for lula based algorithms suchas as RMPFLOW. 
+1. Use Lula Robot Description Editor to generate a YAML file used for lula based algorithms suchas as RMPFLOW.
+
+## RMPFLow setup for new robots
+
+1. Imporrtar el cuerpo del robot, borrar el prim del endffector porque se agregara el gripper mas adelante. Guardar como flatenned y asegurarse de que solo su prim padre sea root articulation. Verifica que al dar play se pueda mover sin problemas
+2. 
 
 
 

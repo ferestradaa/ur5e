@@ -41,7 +41,7 @@ se visualizan los resultados
 
 1. Imporrtar el cuerpo del robot, borrar el prim del endffector porque se agregara el gripper mas adelante. Guardar como flatenned y asegurarse de que solo su prim padre sea root articulation. Verifica que al dar play se pueda mover sin problemas
 
-The following scripts help the user to very if their usd works for rmplow solver:
+The following scripts help the user to very if their usd works for rmplow solver. Try each of them on isaac sim script editor
 
 
 1. Verify if the usd has an Articulation

@@ -40,7 +40,24 @@ se visualizan los resultados
 ## Build USD for any robot
 
 1. Imporrtar el cuerpo del robot, borrar el prim del endffector porque se agregara el gripper mas adelante. Guardar como flatenned y asegurarse de que solo su prim padre sea root articulation. Verifica que al dar play se pueda mover sin problemas
-2. 
 
+The following scripts help the user to very if their usd works for rmplow solver:
+
+
+1. Verify if the usd has an Articulation
+```python
+from omni.isaac.core import SimulationContext
+from omni.isaac.core.utils.stage import open_stage_async
+from omni.isaac.core.articulations import Articulation
+from omni.isaac.core.utils.prims import add_reference_to_stage
+
+robot_path="/gen37_instanceable"
+robot = Articulation(robot_path)
+
+robot.initialize()  
+robot.post_reset()
+
+print("DOF:", robot.num_dof)
+```
 
 

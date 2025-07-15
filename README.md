@@ -35,7 +35,15 @@ se visualizan los resultados
 
 
 ## RMPFLow setup for new robots
-1. Use Lula Robot Description Editor to generate a YAML file used for lula based algorithms suchas as RMPFLOW.
+1. Load from isaac assets both kinova gen3 usd (body) and gripper usd with name ending in edit
+2. For every usd, make sure youre using a flattened and non instanceable version (export as flatenned and remove instances)
+3. For safety change links names in case theyre repeated even if differrent usd files
+4. Create a father prim for the complete robot and set it as articulation root
+5. Inside this father, place both the body and gripper, make sure they dont use an articulated root but they do rigid bodies
+6. Join the bodys bracelet link and the base link of the gripper with a fixed joint. MAke sure to manually adjust the local pose.
+7. To verufy it works, create 2 articulation controllers and move the joints (finger_joint and any robots joint) in order to check you can access directly the articulation root.
+8. Set default prim the parent.
+9. Delete the action graphs used for testing when exporting to a clean scene
 
 ## Build USD for any robot
 
